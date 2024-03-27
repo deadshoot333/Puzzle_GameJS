@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-image: url("./assets/background.jpg");
+  overflow: hidden;
+}
+
+#board {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #3c1bb4;
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1,#turn{
+  font-family:"Marvel", sans-serif;
+  font-weight: 700;
+  font-style:normal;
+  color: white;
+}
+#board img {
+  width: 98px;
+  height: 98px;
+  border: 0.1px solid #08031a;
+}
